@@ -9,8 +9,6 @@ RegisterCommand('anuncios', function()
             job = jobname
         })
         SetNuiFocus(true, true)
-    else
-        ESX.ShowNotification('No tienes acceso a esto.')
     end
 end)
 RegisterNUICallback('exit', function()
